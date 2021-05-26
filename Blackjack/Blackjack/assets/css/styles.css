@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background: #2f4f30;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+h1 {
+  margin: 20px;
+}
+
+.btn {
+  
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.titulo {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+
+.carta {
+  position: relative;
+  width: 100px;
+  left: 100px;
+  margin-left: -75px;
+}
+
+#computadora-cartas, #jugador-cartas {
+  height: 150px;
+}
+
+.btn {
+  margin: 20px 5px;
+  padding: 7px 15px;
+  border-radius: .25rem;
+  background-color: #007bff;
+  color: #fff;
+  -webkit-transition: background-color .15s ease-in-out;
+  transition: background-color .15s ease-in-out;
+}
+
+.btnhover, .btnfocus {
+  background-color: #0069d9;
+}
+
+.btnactive {
+  background-color: #0062cc;
+}
+
+.nuevo {
+  background: #bd2130;
+}
+
+.nuevohover, .nuevofocus {
+  background-color: #bd2126;
+}
+
+.nuevoactive {
+  background-color: #bd2135;
+}
